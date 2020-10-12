@@ -1,0 +1,14 @@
+{
+	"core": "../../../",
+	"plugins": [
+		"."
+	],
+	"mappings": {
+		"wp-content/": "../../"
+	},
+	"config": {
+		"WP_DEBUG": true,
+		"SCRIPT_DEBUG": true,
+		"FS_METHOD": "direct"
+	}
+}
